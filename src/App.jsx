@@ -10,11 +10,11 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/about",
+    path: "/vite-deploy/about",
     element: <About></About>,
   },
   {
-    path: "/work",
+    path: "/vite-deploy/work",
     element: <Work></Work>,
   }
 ]);
