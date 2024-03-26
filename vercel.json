@@ -2,7 +2,7 @@
     "routes":[
      {
          "src": "/vite-deploy/home",
-         "dest": "/index.html"
+         "dest": "/vite-deploy/home"
      },
      {
          "src": "/vite-deploy/about",
