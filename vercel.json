@@ -1,15 +1,13 @@
 {
    "routes":[
-    {
-        "src:": "/vite-deploy/home",
-        "dest": "/"
-    },
+    { "path": "*", "dest": "/vite-deploy/home" },
     {
         "src:": "/vite-deploy/about",
         "dest": "/"
+    },
+    {
+        "src:": "/vite-deploy/work",
+        "dest": "/"
     }
-   ],
-    "rewrites":  [
-       {"source": "/(.*)", "destination": "/"}
-    ]
+   ]
 }
