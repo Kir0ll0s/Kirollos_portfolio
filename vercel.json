@@ -1,15 +1,12 @@
 {
-   "routes":[
-    { "path": "*", 
-      "dest": "/" 
-    },
-    {
-        "src:": "/vite-deploy/home",
-        "dest": "/"
-    },
-    {
-        "src:": "/vite-deploy/work",
-        "dest": "/"
-    }
-   ]
-}
+    "routes":[
+     {
+         "src": "/vite-deploy/home",
+         "dest": "/"
+     },
+     {
+         "src": "/vite-deploy/about",
+         "dest": "/"
+     }
+    ]
+ }
