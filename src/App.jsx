@@ -1,6 +1,6 @@
 // import {createBrowserRouter,RouterProvider,Route} from "react-router-dom";
 import './App.css'
-import Rout from './Rout';
+
 import Home from './pages/Home';
 import About from "./pages/About";
 import Work  from './pages/Work'
@@ -22,7 +22,7 @@ import Work  from './pages/Work'
 function App() {
   return (
     <>
-    <Rout></Rout>
+    <Home></Home>
     
     </>
   )
