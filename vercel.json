@@ -1,5 +1,5 @@
 {
    "rewrites":  [
-       {"source": "/(.*)", "destination": "/vite-deploy/home"}
+       {"source": "/(.*)", "destination": "/"}
     ]
 }
