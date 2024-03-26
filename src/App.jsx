@@ -23,7 +23,7 @@ function App() {
   return (
     <>
     <Rout></Rout>
-    <Home></Home>
+    
     </>
   )
 }
