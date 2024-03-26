@@ -11,8 +11,8 @@ function Header() {
             <nav id="main-nav">
                 <img src="src\assets\images\logo.png" alt="My Portfolio" id="logo" />
                 <ul>
-                    <li><a href="/" className="current">Home</a></li>
-                    <li><a href=" /vite-deploy/about">About</a></li>
+                    <li><a href="/vite-deploy/home" className="current">Home</a></li>
+                    <li><a href="/vite-deploy/about">About</a></li>
                     <li><a href="/vite-deploy/work">Work</a></li>
                     
                 </ul>

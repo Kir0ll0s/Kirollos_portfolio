@@ -1,5 +1,15 @@
 {
-   "rewrites":  [
+   "routes":[
+    {
+        "src:": "/vite-deploy/home",
+        "dest": "/"
+    },
+    {
+        "src:": "/vite-deploy/about",
+        "dest": "/"
+    }
+   ],
+    "rewrites":  [
        {"source": "/(.*)", "destination": "/"}
     ]
 }
